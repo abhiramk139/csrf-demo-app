@@ -1,0 +1,5 @@
+org\igormukhin\samples\csrfdemoapp\ApplicationWeb.class
+org\igormukhin\samples\csrfdemoapp\SpringBootCsrfSampleApplication.class
+org\igormukhin\samples\csrfdemoapp\ApplicationSecurity.class
+org\igormukhin\samples\csrfdemoapp\CsrfHeaderFilter.class
+org\igormukhin\samples\csrfdemoapp\HomeController.class
