@@ -22,8 +22,197 @@
 
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../styles/styles.css" type="text/css">
+    <!-- <link rel="stylesheet" href="../../styles/styles.css" type="text/css"> -->
 
+<style>
+	/* Space out content a bit */
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header, .marketing, .footer {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 40px;
+}
+
+/* Customize container */
+.container-narrow>hr {
+	margin: 30px 0;
+}
+
+/* Supporting marketing content */
+.marketing {
+	margin: 40px 0;
+}
+
+.marketing p+h4 {
+	margin-top: 28px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f1f5f9;
+	padding: 48px 60px;
+}
+
+.full {
+	max-width: 1500px;
+}
+
+h1 {
+	margin-left: 18%;
+	font-size: 48px;
+	font-family: "Roboto", sans-serif;
+	color: #71717a;
+	margin-bottom: 18px;
+}
+
+.main {
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #f8fafc;
+	border-radius: 0 0 30px 30px;
+	box-shadow: 0 8px 10px -12px;
+}
+
+.img {
+	mix-blend-mode: multiply;
+	margin-bottom: 18px;
+}
+
+.center {
+	font-family: "Roboto", sans-serif;
+	color: #71717a;
+	margin-bottom: 28px;
+	font-size: 25px;
+}
+
+h2 {
+	font-weight: 400;
+	margin-bottom: 12px;
+}
+
+h4 {
+	font-weight: 400;
+}
+
+.form input {
+	box-shadow: 0 8px 10px -12px;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+	max-width: 100%;
+	/* padding: 12px 48px; */
+	margin-bottom: 18px;
+	width: 250px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.translate-user-icon {
+	/* transform: translate3d(265px, 15px, 0px) !important; */
+	/* You can replace this with margin left and margin top */
+	margin-left: 17% !important;
+}
+
+.form input::placeholder {
+	color: #9ca3af;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.user {
+	
+}
+
+.password {
+	
+}
+
+.cornerlink {
+	color: #9ca3af;
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	margin-left: 180px;
+}
+
+.btn {
+	background-color: #d00000;
+	padding: 6px 68px;
+	margin-top: 18px;
+	border-radius: 5px;
+	border: none;
+	color: #f8fafc;
+	cursor: pointer;
+	font-size: 10px;
+}
+
+.btn:hover {
+	background-color: #c1121f;
+	transition: 0.3s;
+	transform: scale(105%);
+	color: #f1f5f9;
+}
+
+.downtext {
+	color: #9ca3af;
+	font-family: "Roboto", sans-serif;
+	display: inline-block;
+	margin-top: 18px;
+	margin-bottom: 24px;
+	font-size: 18px;
+}
+
+.link {
+	color: #d00000;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+}
+
+.fa-user {
+	position: absolute;
+	margin-left: 20px;
+	transform: translateY(19px);
+	pointer-events: none;
+}
+
+.fa-lock {
+	position: absolute;
+	margin-left: 20px;
+	transform: translateY(19px);
+	pointer-events: none;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait)
+	{
+	.translate-user-icon {
+		/* transform: translate3d(-125px, 15px, 0px) !important; */
+		/* You can replace this with margin left and margin top */
+		margin-left: -28% !important;
+	}
+}
+</style>
 
 </head>
 <body onload="document.f.username.focus();">
